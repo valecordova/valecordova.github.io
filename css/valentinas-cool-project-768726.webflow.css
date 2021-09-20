@@ -192,7 +192,7 @@
   display: flex;
   height: 100vh;
   max-width: 1600px;
-  min-height: 400px;
+  min-height: 500px;
   margin-right: auto;
   margin-left: auto;
   padding-top: 19%;
@@ -709,7 +709,7 @@
   }
 
   .r-container {
-    position: absolute;
+    position: relative;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -773,7 +773,7 @@
   }
 
   .body-2 {
-    height: 100vh;
+    height: 200vh;
   }
 
   .heading-2 {
