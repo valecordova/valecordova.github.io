@@ -716,8 +716,8 @@
     display: flex;
     height: auto;
     min-height: 400px;
-    margin-top: 0px;
-    padding-top: -167%;
+    margin-top: -167px;
+    padding-top: 0%;
     float: none;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -773,7 +773,7 @@
   }
 
   .body-2 {
-    height: 200vh;
+    height: 100vh;
   }
 
   .heading-2 {
