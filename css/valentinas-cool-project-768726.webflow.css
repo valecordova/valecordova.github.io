@@ -192,7 +192,7 @@
   display: flex;
   height: 100vh;
   max-width: 1600px;
-  min-height: 1600px;
+  min-height: 500px;
   margin-right: auto;
   margin-left: auto;
   padding-top: 19%;
@@ -299,7 +299,7 @@
 }
 
 .body-2 {
-  height: 200vh;
+  height: 150vh;
   background-image: url('../images/UNADJUSTEDNONRAW_thumb_23fa.jpg');
   background-position: 50% 50%;
   background-size: cover;
@@ -716,6 +716,7 @@
     display: flex;
     height: auto;
     min-height: 400px;
+    margin-top: -167px;
     padding-top: 0%;
     float: none;
     -webkit-box-pack: center;
@@ -725,10 +726,10 @@
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
-    -webkit-box-align: end;
-    -webkit-align-items: flex-end;
-    -ms-flex-align: end;
-    align-items: flex-end;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
     -webkit-align-content: flex-end;
     -ms-flex-line-pack: end;
     align-content: flex-end;
