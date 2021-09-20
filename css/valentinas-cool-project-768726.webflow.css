@@ -186,6 +186,8 @@
 }
 
 .r-container {
+  position: relative;
+  z-index: 10;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -300,11 +302,7 @@
 
 .body-2 {
   height: 150vh;
-  background-image: url('../images/UNADJUSTEDNONRAW_thumb_23fa.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: repeat-y;
-  background-attachment: fixed;
+  background-color: transparent;
 }
 
 .section {
@@ -410,6 +408,28 @@
   font-family: Lato, sans-serif;
   font-size: 20px;
   line-height: 30px;
+}
+
+.container-2 {
+  position: fixed;
+  z-index: 15;
+  display: block;
+  height: 100vh;
+  background-image: url('../images/UNADJUSTEDNONRAW_thumb_23fa.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.section-3 {
+  background-image: url('../images/UNADJUSTEDNONRAW_thumb_23fa.jpg');
+  background-position: 50% 50%;
+  background-size: 100%;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
 }
 
 @media screen and (max-width: 991px) {
@@ -715,7 +735,7 @@
     display: -ms-flexbox;
     display: flex;
     height: auto;
-    min-height: 800px;
+    min-height: 400px;
     margin-top: -8px;
     margin-bottom: 11px;
     padding-top: 0%;
@@ -775,6 +795,7 @@
 
   .body-2 {
     height: 800px;
+    background-image: none;
   }
 
   .heading-2 {
@@ -848,5 +869,29 @@
   .paragraph-3 {
     margin-top: 0px;
     font-size: 10px;
+  }
+
+  .container-2 {
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    height: 100vh;
+    padding-right: 0px;
+    background-image: url('../images/UNADJUSTEDNONRAW_thumb_23fa.jpg');
+    background-position: 0px 0px;
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+  }
+
+  .section-3 {
+    position: fixed;
+    z-index: 1;
+    background-position: 0% 0%;
+    background-size: auto;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
   }
 }
