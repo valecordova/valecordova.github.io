@@ -301,7 +301,7 @@
 .body-2 {
   height: 200vh;
   background-image: url('../images/UNADJUSTEDNONRAW_thumb_23fa.jpg');
-  background-position: 0px 0px;
+  background-position: 50% 50%;
   background-size: cover;
   background-repeat: repeat-y;
   background-attachment: fixed;
@@ -709,12 +709,13 @@
   }
 
   .r-container {
+    position: static;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     height: auto;
-    min-height: 500px;
+    min-height: 400px;
     padding-top: 0%;
     float: none;
     -webkit-box-pack: center;
@@ -731,11 +732,6 @@
     -webkit-align-content: flex-end;
     -ms-flex-line-pack: end;
     align-content: flex-end;
-    background-image: url('../images/UNADJUSTEDNONRAW_thumb_23fa.jpg');
-    background-position: 0% 0%;
-    background-size: cover;
-    background-repeat: repeat-y;
-    background-attachment: fixed;
     font-size: 10px;
     font-weight: 400;
   }
