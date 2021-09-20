@@ -716,8 +716,8 @@
     display: flex;
     height: auto;
     min-height: 400px;
-    margin-top: -167px;
-    padding-top: 0%;
+    margin-top: 0px;
+    padding-top: -167%;
     float: none;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
