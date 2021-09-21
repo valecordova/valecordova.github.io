@@ -973,6 +973,47 @@ p {
   text-align: center;
 }
 
+.heading {
+  margin-top: 40px;
+  padding-bottom: 12px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.paragraph {
+  font-size: 16px;
+}
+
+.paragraph-2 {
+  margin-bottom: 55px;
+  text-align: justify;
+}
+
+.heading-2 {
+  margin-top: 40px;
+  padding-bottom: 12px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.paragraph-3 {
+  padding-bottom: 12px;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.heading-3 {
+  margin-top: 40px;
+  padding-bottom: 12px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.paragraph-4 {
+  font-size: 16px;
+  text-align: justify;
+}
+
 @media screen and (max-width: 991px) {
   .hamburger-button.left {
     float: left;
